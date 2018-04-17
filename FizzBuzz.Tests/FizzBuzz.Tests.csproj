@@ -15,6 +15,10 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.1" />
-</ItemGroup> 
+</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz.Library\FizzBuzz.Library.csproj" />
+  </ItemGroup> 
 
 </Project>
